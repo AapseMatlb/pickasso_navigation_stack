@@ -1,0 +1,7 @@
+<package format="2">
+  <name>pickasso_navigation_stack</name>
+  <version>0.0.1</version>
+  <description>The Pickasso Navigation Stack package</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>MIT</license>
+</package>

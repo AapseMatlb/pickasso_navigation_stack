@@ -1,0 +1,8 @@
+<launch>
+    <param name="use_sim_time" value="true"/>
+    <param name="robot_description" command="$(find xacro)/xacro '$(find turtlebot3_description)/urdf/turtlebot3_waffle_pi.urdf.xacro'" />
+    <node pkg="map_server" type="map_server" name="map_server" args="$(find pickasso_navigation_stack)/maps/office_map.yaml" />
+    <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
+        <arg name="map_file" value="$(find pickasso_navigation_stack)/maps/office_map.yaml"/>
+    </include>
+</launch>

@@ -1,0 +1,10 @@
+DWAPlannerROS:
+  max_vel_x: 0.22
+  min_vel_x: 0.0
+  max_vel_theta: 2.75
+  min_vel_theta: -2.75
+  acc_lim_x: 2.5
+  acc_lim_theta: 3.2
+  xy_goal_tolerance: 0.05
+  yaw_goal_tolerance: 0.17
+  latch_xy_goal_tolerance: false
