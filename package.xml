@@ -1,7 +1,13 @@
 <package format="2">
   <name>pickasso_navigation_stack</name>
   <version>0.0.1</version>
-  <description>The Pickasso Navigation Stack package</description>
+  <description>The Pickasso Navigation Stack</description>
+
   <maintainer email="you@example.com">Your Name</maintainer>
   <license>MIT</license>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
 </package>

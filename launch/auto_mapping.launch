@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="pickasso_navigation_stack" type="auto_map.py" name="auto_mapping_node" output="screen" />
+</launch>
